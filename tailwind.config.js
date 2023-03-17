@@ -7,13 +7,13 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        'mobile':{'max':'375px'},
+        'laptop':{'min':'1439px'},
+        'mobile':{'max':'375px'}
       },
       colors:{
         'violet':'hsl(257, 40%, 49%)',
         'softmagenta':'hsl(300, 69%, 71%)'
-      }
-      
+      },
     },
   },
   plugins: [],
